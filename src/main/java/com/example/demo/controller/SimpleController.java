@@ -10,14 +10,15 @@ public class SimpleController {
 
 	
 	@GetMapping("hello")
-	public String hello()
-
+	public String hello() {
+System.out.println("from hello ccontroller");
 		return "Your time starts now...";
 	}
 
 	@GetMapping("welcome")
-	public String Welcome()
+	public String Welcome() { 
 
+		System.out.println("from welcome ccontroller");
 		return "Welcome to the show...";
 	}
 }
