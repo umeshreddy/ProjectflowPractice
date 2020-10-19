@@ -10,9 +10,8 @@ public class SimpleController {
 
 	
 	@GetMapping("hello")
-	public String hello() {
+	public String hello()
 
-		System.out.println("hello...................");
 		return "Your time starts now...";
 	}
 }
