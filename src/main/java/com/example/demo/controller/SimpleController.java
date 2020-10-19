@@ -14,4 +14,10 @@ public class SimpleController {
 
 		return "Your time starts now...";
 	}
+
+	@GetMapping("welcome")
+	public String Welcome()
+
+		return "Welcome to the show...";
+	}
 }
